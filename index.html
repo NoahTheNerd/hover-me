@@ -1,42 +1,20 @@
 <html>
     <head>
-        <title>Click me away!</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
-    <body style="margin: 0; background-color: #222; color: #eee">
-        <div class="center-contents">
-            <b>Whoops, you weren't meant to click that!</b>
-            <span>The link you just clicked was only a link to show you info when hovering over it.<br>Don't worry! If you're on Desktop, head back and hover over that link!</span>
-        </div>
+    <body>
+        <h1>Oh noes!</h1>
+        <p>The thing you just clicked is only a link so it can show information when hovering over it!</p>
+        <p>Feel free to head back and try hovering your cursor over it!</p>
     </body>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
-        
-        .center-contents {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        b {
-            font-size: 48px;
-        }
-
-        span {
-            font-size: 24px;
-        }
-        
         body {
-            background-color: #222
+            background-color: #111;
             color: #eee;
             font-family: 'Be Vietnam Pro', sans-serif;
-            text-align: center;
         }
     </style>
-    <script>
-        setTimeout(() => {
-            window.open('','_self').close()
-        }, 10e3)
-    </script>
 </html>
