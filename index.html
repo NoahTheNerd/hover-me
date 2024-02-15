@@ -6,16 +6,22 @@
         <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1 title=":3">aw shucks</h1>
-        <p title=":3">The thing you just clicked is only a link so it can show info when you hover over it!</p>
-        <p title=":3">Feel free to go back and try hovering your cursor over that link!</p>
+        <div class="abstractionbad">
+            <h1 title=":3">aw shucks</h1>
+            <p title=":3">The thing you just clicked is only a link so it can show info when you hover over it!</p>
+            <p title=":3">Feel free to go back and try hovering your cursor over that link!</p>
+        </div>
     </body>
     <style>
         body {
             background-color: #111;
             color: #eee;
             font-family: 'Be Vietnam Pro', sans-serif;
-            font-size: 200%;
+            font-size: 150%;
         }
+        .abstractionbad {
+            display: flex; flex-direction: column; height: 100%; align-items: center; justify-content: center;
+        }
+        .abstractionbad > * { margin-bottom: -0.3em }
     </style>
 </html>
