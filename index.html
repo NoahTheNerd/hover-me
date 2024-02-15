@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Click me away!</title>
+    </head>
+    <body style="margin: 0; background-color: #222; color: #eee">
+        <div class="center-contents">
+            <div>
+                <b>Whoops, you weren't meant to click that!</b>
+                <span>The link you just clicked was only a link to show you info when hovering over it.<br>Don't worry! If you're on Desktop, head back and hover over that link!</span>
+            </div>
+        </div>
+    </body>
+    <style>
+        .center-contents {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        b {
+            font-size: 24px;
+        }
+        
+        body {
+            background-color: #222
+            color: #eee;
+            font-family: 'Be Vietnam Pro';
+            text-align: center;
+        }
+    </style>
+    <script>
+        setTimeout(() => {
+            window.open('','_self').close()
+        }, 10e3)
+    </script>
+</html>
